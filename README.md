@@ -41,7 +41,7 @@ For reference, by using the detection results given by [MegDet](https://arxiv.or
 ### Train on MSCOCO dataset
 1. Clone the repository
 ```
-git clone https://github.com/chenyilun95/tf-cpn.git
+git clone https://github.com/megvii-detection/tf-cpn
 ```
 We'll call the directory that you cloned $CPN_ROOT.
 
@@ -110,4 +110,4 @@ Thanks for [Geng David](https://github.com/GengDavid) and his [pytorch re-implem
 1. If you find it pending while running mptest.py, it may be the blocking problem of python queue in multiprocessing. For convenience, I simply implemented data transferring via temporary files. You need to call MultiProc with extra parameter "dump_method=1" and it'll be fine to run the test code with multiprocess.
 
 ## Contact
-If you have any questions about this repo, please feel free to contact chenyilun95@gmail.com.
+If you have any questions about this repo, please feel free to contact chenyilun95@gmail.com or wangzhicheng@megvii.com.
